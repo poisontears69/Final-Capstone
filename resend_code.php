@@ -33,7 +33,7 @@ function resend_email_verify($name, $email, $verify_token)
     <h2>Hi $name</h2>
     <p>Click on the link below to verify your email address</p>
     <br/><br/>
-    <a href=http://localhost/Final%20Capstone/Final-Capstone/verify_email.php?token=$verify_token'>Verify Email</a>
+    <a href=https://healthconnect.website/verify_email.php?token=$verify_token'>Verify Email</a>
     ";
 
     $mail->Body = $email_template;

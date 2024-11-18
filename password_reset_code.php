@@ -33,7 +33,7 @@ function send_password_reset($get_name, $get_email, $token)
     <h2>Hi $name</h2>
     <h3>You are requesting a password reset link for your account </h3>
     <br/><br/>
-    <a href=http://localhost/Final%20Capstone/Final-Capstone/password_change.php?token=$token&email=$get_email>Change Password</a>
+    <a href=https://healthconnect.website/password_change.php?token=$token&email=$get_email>Change Password</a>
     ";
 
     $mail->Body = $email_template;

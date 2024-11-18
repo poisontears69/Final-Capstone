@@ -1,10 +1,10 @@
 <?php
 
 // Database connection settings for Hostinger
-$host = 'healthconnect.website';  // For Hostinger, it might be 'localhost' or something like 'mysql.hostinger.com'
-$username = 'adminMatoy';  // The database username
+$host = 'localhost';  // For Hostinger, it might be 'localhost' or something like 'mysql.hostinger.com'
+$username = 'u586436726_adminMatoy';  // The database username
 $password = 'b53Q;L*ew|2K';  // The database password
-$database = 'healthconnect';  // The database name
+$database = 'u586436726_healthconnect';  // The database name
 
 // Create connection using mysqli
 $con = mysqli_connect($host, $username, $password, $database);
