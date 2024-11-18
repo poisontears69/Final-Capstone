@@ -1,0 +1,95 @@
+/* global.css */
+
+/* Base Reset and Typography Enhancements */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* Adjust as desired */
+    line-height: 1.5;
+}
+
+/* Override default Bootstrap container padding */
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Text Styling */
+.text-primary-custom {
+    color: #007bff;
+    /* Adjust as needed */
+}
+
+.text-secondary-custom {
+    color: #6c757d;
+}
+
+/* Global Link Styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Button Styling Enhancements */
+.btn-custom {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #e64a19;
+}
+
+/* Padding & Margin Utility Classes */
+.px-2-custom {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.py-2-custom {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+/* General Utility Classes */
+.shadow-custom {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.border-rounded {
+    border-radius: 10px;
+}
+
+.bg-dark-custom {
+    background-color: #343a40;
+    color: white;
+}
+
+/* Flexbox Utilities */
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Media Queries for Responsive Adjustments */
+@media (max-width: 768px) {
+    .text-sm-center {
+        text-align: center;
+    }
+}
