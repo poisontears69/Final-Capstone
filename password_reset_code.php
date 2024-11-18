@@ -7,8 +7,8 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 //Load Composer's autoloader
-require __DIR__ . '/../vendor/autoload.php';
-
+//require __DIR__ . '/../vendor/autoload.php';
+require('vendor/autoload.php');
 function send_password_reset($get_name, $get_email, $token)
 {
     $mail = new PHPMailer(true);

@@ -7,8 +7,8 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 //Load Composer's autoloader
-require __DIR__ . '/../vendor/autoload.php';
-
+// require __DIR__ . '/../vendor/autoload.php';
+require('vendor/autoload.php');
 function sendemail_verify($name, $email, $verify_token)
 {
     $mail = new PHPMailer(true);
